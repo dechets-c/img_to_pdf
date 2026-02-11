@@ -8,5 +8,9 @@ dependencies = [
     "pillow>=12.1.1",
 ]
 
+[tool.setuptools.packages.find]
+where = ["./src"]
+
+
 [project.scripts]
-convert-img-to-pdf = "imgtpdf.main:main"
+imgtpdf = "imgtpdf:main"
