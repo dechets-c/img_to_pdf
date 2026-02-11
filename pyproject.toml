@@ -7,3 +7,6 @@ requires-python = ">=3.14"
 dependencies = [
     "pillow>=12.1.1",
 ]
+
+[project.scripts]
+convert-img-to-pdf = "imgtpdf.main:main"
