@@ -1,0 +1,9 @@
+[project]
+name = "convert-img-to-pdf"
+version = "0.1.0"
+description = "Small cli to convert image to pdf"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pillow>=12.1.1",
+]
